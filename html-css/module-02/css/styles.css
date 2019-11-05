@@ -1,0 +1,11 @@
+.site-navigation li {
+        display: inline-block;}
+.article {
+    width: 421px;
+    display: inline-block;
+   margin-right: 60px;
+}
+.site-navigation {
+    margin: 0;
+    padding: 0;
+}
