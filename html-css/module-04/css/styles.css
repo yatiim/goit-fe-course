@@ -60,15 +60,14 @@ body {
    .site-navigation li:last-child {
        padding-right: 0px;
    }
-   /* .header {
-       height: 164px;
-   } */
+   .header {
+    margin-bottom: 71px;
+   }
    nav.container {
        padding: 36px 0 36px 0;
        height: auto;
        overflow: hidden;
-       margin-bottom: 71px;
-   }
+       }
    .h2 {
     margin: 0;
     font-family: 'Roboto Black', sans-serif;
@@ -194,7 +193,11 @@ img {
     list-style: none;
     margin: 0;
     padding: 0;
-   padding-bottom: 81px;
+    height: auto;
+    overflow: hidden;
+      }
+.latest-news-box {
+    padding-bottom: 81px;
 }
 .news-item {
     margin: 0px;
@@ -244,6 +247,7 @@ img {
 }
 
 .button-read-more {
+    display: inline-block;
     color: #ffffff;
     background-color: #66cc99;
     font-family: 'Open Sans', sans-serif;
@@ -252,6 +256,10 @@ img {
 margin: 0;
 padding: 12px 40px 12px 40px;
 border-radius: 3px;
+}
+.button-read-more:hover {
+    background-color: #add12a;
+    cursor: pointer;
 }
 /* 
 .header {
