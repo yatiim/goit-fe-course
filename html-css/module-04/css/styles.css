@@ -55,7 +55,7 @@ body {
    }
    .site-navigation li {
        float: left;
-       padding-right: 32px;
+       margin-right: 32px;
    }
    .site-navigation li:last-child {
        padding-right: 0px;
