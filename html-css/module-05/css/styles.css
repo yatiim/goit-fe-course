@@ -109,6 +109,10 @@ img {
     url(../img/slide4.png);
   }
   .slider li {
+    margin: 0;
+    padding: 0;
+    height: 600px;
+    width: 100%;
       display: block;
     list-style: none;
     position: relative;
@@ -181,8 +185,14 @@ img {
 
 }
 .product-case:hover .product-name-price {
-    background-color: #33cc99;
+    background-color: rgb(26, 188, 156);
     }
+.product-case:hover .options-case {
+    z-index: 2;
+}
+
+ 
+      
 .product-case {
     float: left;
     height: 322px;
@@ -269,6 +279,71 @@ img {
     letter-spacing: -0.02em; 
     font-weight: 300; 
 }
+.option-item {
+    margin: 0;
+    padding: 0;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    list-style: none;
+    height: 48px;
+    width: 48px;
+    border: 1px solid;
+    border-color: #ffffff;
+}
+.option-item  img {
+    object-fit: cover;
+    
+}
+.option-item-cart {
+    display: inline-block;
+    list-style: none;
+    width: 164px;
+    height: 48px;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: #333333;
+
+}
+
+.options-case {
+    margin: 0;
+    padding: 0;
+    border-width: 10px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgba(0, 0, 0, 0.55);
+    width: 255px;
+    height: 283px;
+position: relative;
+position: absolute;
+z-index: -1;
+}
+.option-box {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 90px;
+    left: 45px;
+}
+.add-to-cart {
+    display: inline-block;
+    text-align: right;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.img-cart {
+    display: inline-block;
+}
+ .option-item:hover,
+ .option-item-cart:hover {
+    border-color:  rgb(26, 188, 156);
+    background-color:  rgb(26, 188, 156); 
+ }
+
+  
+  
 /* 
 .AFFORDABLE_PARIS_TOURS_CITY_TOURS___TOUR_TICKET {
     font-size: 60px;
