@@ -119,15 +119,49 @@ img {
   }
   .slider-box {
     height: 600px;
-   
-      background-color: rgb(50, 50, 50);
-          }
+   background-color: rgb(50, 50, 50);
+             }
    
     .slider img {
         height: 600px;
         width: 100%;
         object-fit: cover;
     }
+    .arrows-box {
+        width: 1110px;
+        height: 600px;
+        position: relative;
+        background: transparent;
+        margin: auto;
+    }
+    .arrows {
+        height: 104px;
+        width: 104px;
+        background-color: rgba(78, 198, 171, 0.651);
+        border: none;
+        position: absolute;
+        z-index: 5;
+    }
+    .arrows img {
+        width: 22px;
+        height: 38px;
+        margin: auto;
+
+    }
+    .arrow-prev {
+        top: 225px;
+        left: 0;
+      }
+      .arrow-next{
+        top: 225px;
+        right: 0;  
+      }
+      .arrow-prev:hover,
+      .arrow-next:hover {
+       background-color: rgb(78, 198, 171);
+       cursor: pointer;
+      }
+      
 .new-collection {
     list-style: none;
     margin: 0 auto;
@@ -250,7 +284,12 @@ img {
 }
 .design-name {
     color: #33cc99;
+    text-decoration: none;
+    display: inline-block;
 
+}
+.design-name:hover {
+    cursor: pointer;
 }
 .title-slider {
     margin: 0;
@@ -262,11 +301,14 @@ img {
     line-height: 82px;
     letter-spacing: -0.02em; 
     font-weight: bold;
+    /* position: absolute;
+    top: 200px;
+    left: 185px; */
+}
+.title-slider-box{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
+    top: 200px;
+    left: 185px;
 }
 .describ-slider {
     margin: 0;
@@ -286,25 +328,27 @@ img {
     margin-bottom: 5px;
     display: inline-block;
     list-style: none;
-    height: 48px;
-    width: 48px;
+    height: 50px;
+    width: 50px;
     border: 1px solid;
     border-color: #ffffff;
 }
 .option-item  img {
     object-fit: cover;
+    margin: 12px auto;
+    height: 23px;
     
 }
+  
 .option-item-cart {
     display: inline-block;
     list-style: none;
-    width: 164px;
-    height: 48px;
+    width: 166px;
+    height: 50px;
     border-width: 1px;
     border-color: rgb(255, 255, 255);
     border-style: solid;
     background-color: #333333;
-
 }
 
 .options-case {
@@ -332,9 +376,20 @@ z-index: -1;
     text-align: right;
     color: #ffffff;
     text-transform: uppercase;
+    float: right;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 32px;
+    letter-spacing: -0.02em; 
+    color: #ffffff;
 }
 .img-cart {
     display: inline-block;
+    float: left;
+    margin-top: 9px;
+    margin-left: 10px;
 }
  .option-item:hover,
  .option-item-cart:hover {
@@ -344,29 +399,3 @@ z-index: -1;
 
   
   
-/* 
-.AFFORDABLE_PARIS_TOURS_CITY_TOURS___TOUR_TICKET {
-    font-size: 60px;
-    font-family: "Roboto";
-    color: rgb(255, 114, 0);
-    text-transform: uppercase;
-    line-height: 1.367;
-    text-align: left;
-    position: absolute;
-    left: 429.006px;
-    top: 383.672px;
-    width: 738px;
-    height: 98px;
-    z-index: 74;
-  }
-  .Grid {
-    background-color: rgb(255, 0, 0);
-    opacity: 0.251;
-    position: absolute;
-    left: 245px;
-    top: 0px;
-    width: 1110px;
-    height: 7882px;
-    z-index: 96;
-  }
-     */
