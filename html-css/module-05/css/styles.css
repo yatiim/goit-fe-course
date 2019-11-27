@@ -107,6 +107,7 @@ img {
     background-position: center;
     background-image: linear-gradient(rgba(0, 0, 2, 0.52), rgba(0, 0, 2, 0.52)), 
     url(../img/slide4.png);
+    position: relative;
   }
   .slider li {
     margin: 0;
@@ -138,21 +139,20 @@ img {
         height: 104px;
         width: 104px;
         background-color: rgba(78, 198, 171, 0.651);
+        background-repeat: no-repeat;
+        background-position: center;
         border: none;
         position: absolute;
         z-index: 5;
-    }
-    .arrows img {
-        width: 22px;
-        height: 38px;
-        margin: auto;
+            }
 
-    }
     .arrow-prev {
+        background-image: url(../img/arrow-prev.png);
         top: 225px;
         left: 0;
       }
       .arrow-next{
+          background-image: url(../img/arrow-next.png);
         top: 225px;
         right: 0;  
       }
@@ -231,7 +231,6 @@ img {
     float: left;
     height: 322px;
     width: 255px;
-    overflow: hidden;
     margin-right: 30px;
     margin-bottom: 0;
     cursor: pointer;
@@ -240,8 +239,9 @@ img {
     z-index: 1;
 
 }
-.product-case a {
+.product-name-price a {
     display: block;
+    height: 40px;
 }
 
 .product-case:last-child {
@@ -292,6 +292,7 @@ img {
     cursor: pointer;
 }
 .title-slider {
+    display: inline-block;
     margin: 0;
     padding: 0;
     font-size: 60px;
@@ -301,16 +302,23 @@ img {
     line-height: 82px;
     letter-spacing: -0.02em; 
     font-weight: bold;
-    /* position: absolute;
-    top: 200px;
-    left: 185px; */
+}
+.slider-case {
+    margin: 0;
+    padding: 0;
 }
 .title-slider-box{
+    display: block;
     position: absolute;
     top: 200px;
     left: 185px;
+    z-index: 7;
+    width: 750px;
+    height: auto;
+
 }
 .describ-slider {
+    display: inline-block;
     margin: 0;
     padding: 0;
     font-size: 24px;
@@ -332,13 +340,29 @@ img {
     width: 50px;
     border: 1px solid;
     border-color: #ffffff;
-}
-.option-item  img {
-    object-fit: cover;
-    margin: 12px auto;
-    height: 23px;
     
 }
+
+.button-option {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+}
+.like {
+background-image: url(../img/heart.png);
+    }
+.arrow {
+background-image: url(../img/arrow.png);
+        }
+.clock {
+background-image: url(../img/clock.png);
+            }
   
 .option-item-cart {
     display: inline-block;
