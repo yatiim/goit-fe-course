@@ -108,7 +108,6 @@ font-weight: 400;
   
 .service {
     width: 380px;
-    height: 70px;
 padding-left: 80px;
 position: relative;
 margin-bottom: 106px;
@@ -210,7 +209,7 @@ margin-bottom: 106px;
 
   
 .team-case {
-    margin-bottom: 84px;
+    padding-bottom: 84px;
 }
 .team-box {
     display: flex;
