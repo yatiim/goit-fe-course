@@ -1,0 +1,115 @@
+html {
+    box-sizing: border-box;
+
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: acuto;
+}
+.container {
+    width: 320px;
+    margin: 0 auto;
+}
+.header {
+    background: #000;
+    background-image: url(../img/header-foto.png);
+    background-position: center;
+    object-fit: none;
+background-repeat: no-repeat;
+background-position-y: 0px;
+height: 540px;
+margin-bottom: 68px;
+}
+.log-in,
+.sing-up {
+    padding-top: 5px;
+    border: none;
+    background: transparent;
+    color: #fff;
+    display: inline-block;
+    width: 90px;
+    height: 36px;
+    border: 2px solid transparent;
+    background-color: rgba(26, 25, 21, 0);
+    border-radius: 30px;
+    cursor: pointer;
+
+
+}
+.log-in {
+    margin-right: 38px;
+}
+.buttons-registration {
+text-align: center;
+height: 56px;
+padding-top: 20px;
+margin-bottom: 126px;
+}
+
+.log-in:hover,
+.sing-up:hover {
+    border-color: rgb(255, 255, 255);
+
+}
+
+.site-logo {
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+.h2-header, 
+.text-header {
+    color: #fff;
+    text-align: center;
+}
+.button-find {
+    display: block;
+    border-radius: 20px;
+    background-color: rgb(255, 78, 80);
+    color: #fff;
+    width: 280px;
+    height: 40px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-decoration: none;
+}
+.Rectangle_3 {
+    border-radius: 20px;
+    background-color: rgb(255, 78, 80);
+    position: absolute;
+    left: 20px;
+    top: 362px;
+    width: 280px;
+    height: 40px;
+    z-index: 7;
+  }
+/* SECTION PARTNERS */
+.describe-section {
+    text-align: center;
+    font-weight: 700;
+}
+  .partner-photo {
+    width: 122px;
+    height: 122px;
+    border-radius: 120px;
+    margin: 0 auto;
+  }
+  .partner-box {
+      margin: 0;
+      padding: 0;
+  }
+.partner-item {
+     list-style: none;
+     margin: 0 auto;
+    width: 236px;
+}
+ .partner-name, 
+.partner-about {
+    text-align: center;
+}

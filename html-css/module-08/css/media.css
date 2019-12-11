@@ -1,0 +1,28 @@
+@media screen and (min-width: 748px) and (max-width: 941px) {
+    .container {
+        width: 748px;
+    }
+    .partner-box {
+        width: 492px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+}
+
+
+@media screen and (min-width: 942px) {
+    .container {
+        width: 942px;
+    }
+    .partner-item {
+        width: 220px;
+    }
+    .partner-box {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+}
