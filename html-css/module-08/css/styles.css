@@ -253,6 +253,7 @@ padding-top: 20px;
       color: #fff;
       background-color: rgb(255, 78, 80);
       outline: none;
+      cursor: pointer;
   }
   .see-more {
       padding-bottom: 56px;
