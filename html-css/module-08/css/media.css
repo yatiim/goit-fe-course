@@ -2,12 +2,67 @@
     .container {
         width: 748px;
     }
+    .header-photo {
+        background-image: url(../img/header-foto-tablet.png);
+        height: 700px;
+    }
+    .main-navigation {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .buttons-navigation {
+        padding: 0;
+        margin-top: 40px;
+        margin-right: 40px;
+    }
+    .site-logo {
+        margin-left: 36px;
+        margin-top: 44px;
+        height: 24px;
+    }
+    .h2-header {
+        font-size: 52px;
+    }
+    .text-header {
+        font-size: 24px; 
+        margin-bottom: 36px;
+        width: 400px;
+    }
+    .button-find {
+        width: 226px;
+    }
+      
+    .describe-section {
+        margin-bottom: 36px;
+    }
     .partner-box {
         width: 492px;
+        height: 500px;
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
         margin: 0 auto;
-        justify-content: space-between;
+     }
+    .partner-item {
+        width: 236px;
+        margin-bottom: 50px;
+    }
+    .partner-about {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .partner-item:nth-last-child(2n+1) {
+        margin-bottom: 0;
+    }
+    .partner-case {
+        margin-bottom: 36px;
+    }
+    .see-more {
+        margin-bottom: 40px;
+    }
+    .button-see-more {
+        width: 192px;
+        height: 40px;
     }
 }
 
@@ -15,14 +70,96 @@
 @media screen and (min-width: 942px) {
     .container {
         width: 942px;
+        margin: 0 auto;
     }
+    .header-photo {
+        background-image: url(../img/header-foto-desktop.png);
+        height: 700px;
+        /* width: 1440px; */
+         }
+
+         .main-navigation {
+            display: flex;
+            flex-direction: row-reverse;
+            margin-bottom: 32px;
+        }
+        .buttons-navigation {
+            padding: 0;
+            margin-top: 38px;
+        }
+        .site-logo {
+            margin-top: 46px;
+            height: 24px;
+        }
+        .h2-header {
+            font-size: 52px;
+        }
+        .text-header {
+            font-size: 24px; 
+            margin-bottom: 36px;
+            width: 400px;
+        }
+        .button-find {
+            width: 226px;
+        }
+
+        .describe-section {
+            margin-bottom: 36px;
+        }
     .partner-item {
         width: 220px;
+        margin-bottom: 0;
+    }
+    .partner-about {
+        padding-left: 0;
+        padding-right: 0;
     }
     .partner-box {
         display: flex;
         flex-wrap: wrap;
         margin: 0 auto;
         justify-content: space-between;
+    } 
+    .partner-case {
+        margin-bottom: 36px;
     }
-}
+    .see-more {
+        margin-bottom: 40px;
+    }
+    .button-see-more {
+        width: 192px;
+        height: 40px;
+    }
+
+    .Rectangle_3_copy {
+        border-style: solid;
+        border-width: 2px;
+        border-color: rgb(255, 78, 80);
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        left: 622px;
+        top: 1095px;
+        width: 192px;
+        height: 40px;
+        z-index: 37;
+      }
+      .Rectangle_3_copy {
+        border-style: solid;
+        border-width: 2px;
+        border-color: rgb(255, 78, 80);
+        border-radius: 20px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        left: 284px;
+        top: 1355px;
+        width: 193px;
+        height: 40px;
+        z-index: 37;
+      }
+    .lucas {
+        order: 1;
+    } 
+    .bradley2 {
+        order: 2;
+    }
+}  
