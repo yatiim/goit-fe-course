@@ -109,7 +109,7 @@ padding-top: 20px;
     height: 40px;
     text-align: center;
     margin: 0 auto;
-    padding-top: 10px;
+    padding-top: 12px;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -248,11 +248,11 @@ padding-top: 20px;
       font-weight: 700;
       font-size: 14px;
       line-height: 1.2;
+      outline: none;
   }
   .button-see-more:hover {
       color: #fff;
       background-color: rgb(255, 78, 80);
-      outline: none;
       cursor: pointer;
   }
   .see-more {
