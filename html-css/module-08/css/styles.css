@@ -29,7 +29,7 @@ img {
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 32px;
-    padding-top: 20px;
+    padding-top: 25px;
 }
 
 .log-in,
@@ -123,12 +123,13 @@ margin-bottom: 116px;
     background-color: rgb(250, 50, 53);
 }
 .header-content {
-    margin-bottom: 130px;
+    margin-bottom: 125px;
 }
 
 /* SECTION PARTNERS */
 .main-content {
     padding-top: 64px;
+    padding-bottom: 56px;
 }
 
 .describe-section {
@@ -265,7 +266,5 @@ margin-bottom: 116px;
       background-color: rgb(255, 78, 80);
       cursor: pointer;
   }
-  .see-more {
-      padding-bottom: 56px;
-  }
+
   

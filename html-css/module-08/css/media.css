@@ -6,9 +6,10 @@
         height: 700px;
        }
     .main-navigation {
-        padding: 40px 40px 116px 40px;
+        padding: 40px 40px 152px 40px;
         display: flex;
         flex-direction: row-reverse;
+        margin-bottom: 0;
     }
 
     .buttons-navigation {
@@ -29,9 +30,11 @@
         width: 226px;
     }
     .header-content {
-        margin-bottom: 238px;
+        margin-bottom: 234px;
     }
-      
+    .main-content {
+        padding-bottom: 40px;
+    }
     .describe-section {
         margin-bottom: 36px;
     }
@@ -57,9 +60,6 @@
     .partner-case {
         margin-bottom: 36px;
     }
-    .see-more {
-       padding-bottom: 40px;
-    }
     .button-see-more {
         width: 192px;
         height: 40px;
@@ -80,28 +80,35 @@
      .main-navigation {
             display: flex;
             flex-direction: row-reverse;
-            margin-bottom: 32px;
+            padding-top: 48px;
+            padding-bottom: 130px;
     }
     .buttons-navigation {
      padding: 0;
-     margin-top: 38px;
+     margin: 0;
     }
         .site-logo {
-            margin-top: 46px;
+            margin: 0;
             height: 24px;
         }
         .h2-header {
             font-size: 52px;
+            margin-bottom: 30px;
         }
         .text-header {
             font-size: 24px; 
-            margin-bottom: 36px;
+            margin-bottom: 30px;
             width: 400px;
         }
         .button-find {
             width: 226px;
         }
-
+        .header-content {
+            margin-bottom: 234px;
+        }
+    .main-content {
+        padding-bottom: 75px;
+    }
         .describe-section {
             margin-bottom: 36px;
         }
@@ -121,9 +128,6 @@
     } 
     .partner-case {
         margin-bottom: 36px;
-    }
-    .see-more {
-    padding-bottom: 40px;
     }
     .button-see-more {
         width: 192px;
