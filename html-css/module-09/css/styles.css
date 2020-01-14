@@ -1,3 +1,6 @@
+html {
+    font-size: 16px;
+}
 img {
     display: block;
     max-width: 100%;
@@ -22,9 +25,13 @@ nav.row a:focus  {
     color: #fff;
     text-decoration: none;
 }
+  
 .log-in,
 .sing-up {
+    padding-top: 9px;
+    display: inline-block;
     color: #fff;
+    box-sizing: border-box;
     width: 90px;
     height: 36px;
     border: 2px solid transparent;
@@ -43,6 +50,10 @@ nav.row a:focus  {
     border-color: rgb(255, 255, 255);
 
 }
+.buttons-navigation {
+    text-align: center;
+    margin-bottom: 110px;
+    }
 .site-logo {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -51,18 +62,24 @@ nav.row a:focus  {
     line-height: 1.2;
     letter-spacing: 0.05em;
 }
+.main-navigation {
+    margin-bottom: 34px;
+    padding-top: 1.5rem;
+}
 .h2-header, 
 .text-header {
     color: #fff;
     text-align: center;
 
 }
+  
 .h2-header {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 30px;
     line-height: 1.2;
     text-transform: uppercase;
+
 }
 
 .text-header {
@@ -72,6 +89,7 @@ nav.row a:focus  {
     line-height: 1.2;
  }
  .button-find {
+    display: block;
     border-radius: 20px;
     background-color: rgb(255, 78, 80);
     color: #fff;
@@ -86,16 +104,21 @@ nav.row a:focus  {
     line-height: 1.2;
     cursor: pointer;
 }
+  
 .button-find:hover {
     color: #fff;
     text-decoration: none;
     background-color: rgb(250, 50, 53);
 }
 .header-content {
-    margin-bottom: 163px;
+    margin-bottom: 134px;
 }
 
-/* SECTION PARTNERS */
+/* PARTNER'S PART */
+.h2-partner-case {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
 .describe-section {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -107,11 +130,15 @@ nav.row a:focus  {
 .partner-item {
     list-style: none;
     max-width: 320px;
+    margin-bottom: 26px;
   }
 
   .partner-photo-box {
       width: 122px;
       height: 122px;
+      position: relative;
+      margin: 0 auto;
+      margin-bottom: 1.25rem;
   }
 
   .partner-photo {
@@ -120,9 +147,7 @@ nav.row a:focus  {
     border-radius: 120px;
     margin: 0 auto;
   }
-  .partner-photo-box {
-      position: relative;
-  }
+
   .partner-photo-box::after {
     display: block;
     content:'';
@@ -158,6 +183,7 @@ nav.row a:focus  {
     line-height: 1.2;
     color: #666666;
     letter-spacing: 0;
+    margin-bottom: 0;
 }
 .ellipse-tv::after {
     background-color: rgb(255, 78, 80);
@@ -198,9 +224,10 @@ nav.row a:focus  {
         line-height: 1.2;
         outline: none;
     }
-    .button-see-more:hover {
+    .button-see-more:hover,
+    .button-see-more:focus {
         color: #fff;
         background-color: rgb(255, 78, 80);
         cursor: pointer;
         outline: none;
-    }
+    }      

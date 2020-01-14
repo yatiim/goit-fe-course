@@ -1,5 +1,52 @@
 @media (min-width: 768px) {
 .header-content {
-    margin-bottom: 187px;
+    margin-bottom: 233px;
+}
+.header {
+    height: 700px;
+}
+.buttons-navigation {
+    margin-bottom: 0;
+}
+.main-navigation {
+    padding-top: 2.5rem;
+    margin-bottom: 150px;
+}
+.h2-header {
+    font-size: 52px;
+    margin-bottom: 1.5rem;
+}
+.text-header {
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.button-find {
+    width: 226px;
+}
+.h2-partner-case {
+    padding-top: 4.37rem;
+    padding-bottom: 2.12rem;
+}
+.partner-item {
+    margin-bottom: 40px;
+    padding: 0 3rem;
+}
+.button-see-more  {
+    width: 193px;  
 }
 }
+
+@media (min-width: 992px) {
+    .partner-item {
+        padding: 0;
+        max-width: 220px;
+    }  
+    .buttons-navigation {
+        text-align: right;
+        }
+    .site-logo {
+        text-align: left;
+        }
+}
+
+  
