@@ -352,7 +352,7 @@ margin-bottom: 106px;
             justify-content: space-between;
 
 }
-.social__item {
+.social__link {
     display: block;
     width: 55px;
     height: 55px;
@@ -367,12 +367,12 @@ margin-bottom: 106px;
     padding: 15px 0;
     fill: rgb(243, 129, 129);
     }
-.social__item:hover {
+.social__link:hover {
         border-radius: 5px;
         background-color: rgb(243, 129, 129);
        }
     
-.social__item:hover .social__icon {
+.social__link:hover .social__icon {
         fill: #fff; 
         padding: 12px 0;
     
