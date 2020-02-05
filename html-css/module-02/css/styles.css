@@ -1,11 +1,32 @@
+/*
 .site-navigation li {
         display: inline-block;}
+        
+*/
 .article {
     width: 421px;
     display: inline-block;
    margin-right: 60px;
 }
+/*
 .site-navigation {
     margin: 0;
     padding: 0;
+*/
+.wrap {
+width: 900px;
+text-align: center;
+}
+ul li {
+    display: inline-block;
+    list-style: none;
+    width: 100px ;
+    height: 30px ;
+    text-align: center;
+}
+ul li a {
+    font-size: 25px;
+    text-decoration: none;
+text-align: center;
+
 }

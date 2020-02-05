@@ -176,9 +176,7 @@ img {
       z-index: 2;
       top: 0px;
       left: 0px;
-
-      
-           }
+    }
   div.product-name-price {
       margin: 0;
       padding: 0;
@@ -254,9 +252,7 @@ img {
   .new-collection-box {
         padding-bottom: 100px;
         padding-top: 100px;
-
- 
-  }
+}
   .fon {
     background: rgb(233, 240, 253);
 

@@ -1,0 +1,50 @@
+%menu-foto {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    fill: $light-color;
+}
+%menu-hover {
+    cursor: pointer;
+    color: $main-color-yellow;
+    fill: $main-color-yellow;
+}
+%title-describe {
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-family: $describe-font;
+    text-align: center;
+    text-transform: none;
+    font-weight: 400;
+}
+%title {
+    margin: 0;
+    padding: 0;
+    font-family: $main-font;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+%button {
+    font-size: 14px;
+    font-family: $main-font;
+    color: $light-color;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+%button-hover {
+    background: $main-color-red;
+    font-size: 15px;
+}
+%title-after {
+    display: block;
+    content: '';
+    background-color: $main-color-red;
+    width: 60px;
+    height: 3px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
